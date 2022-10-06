@@ -16,17 +16,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="instagram_logo" translatesAutoresizingMaskIntoConstraints="NO" id="uSN-Ck-HAD">
-                                <rect key="frame" x="63" y="273" width="255" height="108"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="instagram_logo" translatesAutoresizingMaskIntoConstraints="NO" id="uSN-Ck-HAD">
+                                <rect key="frame" x="68" y="273" width="255" height="108"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="insta_camera_btn" translatesAutoresizingMaskIntoConstraints="NO" id="3UI-d7-vtZ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="insta_camera_btn" translatesAutoresizingMaskIntoConstraints="NO" id="3UI-d7-vtZ">
                                 <rect key="frame" x="153" y="389" width="84" height="117"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="117" id="QTB-oP-hkj"/>
+                                    <constraint firstAttribute="width" constant="84" id="zfD-rm-ESS"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3UI-d7-vtZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="153" id="CQM-ln-MZv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3UI-d7-vtZ" secondAttribute="trailing" constant="153" id="evV-0d-gSB"/>
+                            <constraint firstItem="uSN-Ck-HAD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="226" id="fO5-2R-heA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uSN-Ck-HAD" secondAttribute="trailing" constant="67" id="lOM-12-4oX"/>
+                            <constraint firstItem="uSN-Ck-HAD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="yyt-p8-3H8"/>
+                            <constraint firstItem="3UI-d7-vtZ" firstAttribute="top" secondItem="uSN-Ck-HAD" secondAttribute="bottom" constant="8" symbolic="YES" id="z8X-dr-inb"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
