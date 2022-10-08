@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0329A45928F0EBF70065D96E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0329A45828F0EBF70065D96E /* PostCell.swift */; };
 		03E8984D28EB78AE00196BAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E8984C28EB78AE00196BAE /* AppDelegate.swift */; };
 		03E8984F28EB78AE00196BAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E8984E28EB78AE00196BAE /* SceneDelegate.swift */; };
 		03E8985428EB78AE00196BAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E8985228EB78AE00196BAE /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0329A45828F0EBF70065D96E /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		03E8984928EB78AE00196BAE /* InstagramCodePath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramCodePath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E8984C28EB78AE00196BAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03E8984E28EB78AE00196BAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				03E8986028EF0EB100196BAE /* LoginViewController.swift */,
 				03E8986228EF0ECB00196BAE /* FeedViewController.swift */,
 				03E8986428EF1A7C00196BAE /* CameraViewController.swift */,
+				0329A45828F0EBF70065D96E /* PostCell.swift */,
 			);
 			path = InstagramCodePath;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				03E8984D28EB78AE00196BAE /* AppDelegate.swift in Sources */,
 				03E8986328EF0ECB00196BAE /* FeedViewController.swift in Sources */,
 				03E8984F28EB78AE00196BAE /* SceneDelegate.swift in Sources */,
+				0329A45928F0EBF70065D96E /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
