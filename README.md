@@ -23,4 +23,8 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://g.recordit.co/WFvwbnDQXE.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+NOTE: The GIF runs too long to show me logging in, so I have another gif here.
+
+<img src='http://g.recordit.co/CObewRMdYz.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+<img src='http://g.recordit.co/4UL2jde0kR.gif' title='Video Walkthrough2' width='' alt='Video Walkthrough2' />
