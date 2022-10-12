@@ -170,7 +170,7 @@
                                             <outlet property="usernameLabel" destination="Cny-mf-dEp" id="8h0-jy-q36"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" id="JyW-7P-jun" customClass="CommentCell" customModule="InstagramCodePath" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CommentCell" id="JyW-7P-jun" customClass="CommentCell" customModule="InstagramCodePath" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="518" width="426" height="37.333332061767578"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JyW-7P-jun" id="4Th-tw-Afc">
@@ -204,6 +204,28 @@
                                             <outlet property="commentLabel" destination="HLZ-Tr-942" id="Kd8-5Y-xIP"/>
                                             <outlet property="nameLabel" destination="d4f-jf-4GF" id="P9M-G7-rE2"/>
                                         </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddCommentCell" id="URO-Ue-umf">
+                                        <rect key="frame" x="0.0" y="555.33333206176758" width="426" height="37.333332061767578"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="URO-Ue-umf" id="20S-KF-wjG">
+                                            <rect key="frame" x="0.0" y="0.0" width="426" height="37.333332061767578"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add a Comment!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRO-Tf-OcH">
+                                                    <rect key="frame" x="16" y="7.9999999999999982" width="402" height="21.333333333333329"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="gRO-Tf-OcH" firstAttribute="leading" secondItem="20S-KF-wjG" secondAttribute="leading" constant="16" id="Eoy-kp-c9Q"/>
+                                                <constraint firstAttribute="trailing" secondItem="gRO-Tf-OcH" secondAttribute="trailing" constant="8" id="I0L-qi-Xgp"/>
+                                                <constraint firstAttribute="bottom" secondItem="gRO-Tf-OcH" secondAttribute="bottom" constant="8" id="byf-87-YlO"/>
+                                                <constraint firstItem="gRO-Tf-OcH" firstAttribute="top" secondItem="20S-KF-wjG" secondAttribute="top" constant="8" id="jpR-7P-WYn"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
